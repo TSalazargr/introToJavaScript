@@ -1,0 +1,16 @@
+<h2>onclick</h2>
+<p>The onclick attribute is used to trigger an action when an HTML element is clicked or tapped. It can be used on any HTML element.</p>
+<h3>Example</h3>
+<img id="robot" src="https://blob.sololearn.com/courses/robot-c.jpg">
+  <button onclick="robot.src='http://www.sololearn.com/images/tree.jpg'">
+Show tree</button>
+<img id="robot" src="image_url">
+  <button onclick="robot.src='robot_left_url'">Left</button>
+  <button onclick="robot.src='robot_right_url'">Right</button>
+<h2>Functions</h2>
+<p>A function is a piece of code that can be “called” and reused in a program as many times as you need.<be>
+<h3>Alert</h3>
+<strong>alert()</strong> is an example of a function that displays an alert message. The alert() function displays an alert box with a message and an OK button. The message needs to be enclosed in quotation marks.</p>
+<h4>Example</h4>
+<button onclick="alert('Alert message')">Click here to create an alert message</button>
+<img src="https://4.img-dpreview.com/files/p/E~TS590x0~articles/3925134721/0266554465.jpeg" width="100" onclick="alert('This is a bird')">
